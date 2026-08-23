@@ -1,0 +1,18 @@
+.logg-page {
+	text-align: center;
+}
+
+.logg-content {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.logg-entry {
+	max-width: 700px;
+	margin: 2rem auto;
+	padding: 2rem;
+	background-color: #ffffff;
+	border: 1px solid #d7e0da;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgb(23 63 53 / 10%);
+}
