@@ -18,6 +18,16 @@ nav {
 
 nav p {
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0;
+  vertical-align: middle;
 }
 
 nav ul {
