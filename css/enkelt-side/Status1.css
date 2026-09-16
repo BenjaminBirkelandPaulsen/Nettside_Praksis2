@@ -2,6 +2,7 @@
     text-align: center;
     font-size: 2.5rem;
     grid-column: 1 / -1;
+    grid-row: 1;
 }
 
 .Status1 {
@@ -42,6 +43,28 @@
     padding: 0;
 }
 
+.Right-img:nth-of-type(1),
+.Left-box:nth-of-type(1) {
+    grid-row: 2;
+}
+
+.Left-img,
+.Right-box {
+    grid-row: 3;
+}
+
+.Right-img:nth-of-type(3),
+.Left-box:nth-of-type(3) {
+    grid-row: 4;
+}
+
+.Status1 video {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1 / -1;
+    grid-row: 5;
+}
+
 @media (max-width: 700px) {
     .Status1 {
         grid-template-columns: 1fr;
@@ -53,5 +76,6 @@
     .Left-img,
     .Right-img {
         grid-column: 1;
+        grid-row: auto;
     }
 }
