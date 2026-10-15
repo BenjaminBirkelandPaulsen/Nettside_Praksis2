@@ -32,14 +32,14 @@
 .Left-img {
     grid-column: 1;
     width: 100%;
-    height: auto;
+    height: 700px;
     padding: 0;
 }
 
 .Right-img {
     grid-column: 2;
     width: 100%;
-    height: auto;
+    height: 700px;
     padding: 0;
 }
 
